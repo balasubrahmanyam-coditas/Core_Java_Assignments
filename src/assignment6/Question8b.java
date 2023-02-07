@@ -3,16 +3,17 @@ package assignment6;
 class Square{
     int i,j,k,l;
     public void design(){
-        for(i=6;i>=1;i--){
-            for(j=1;j<=i;j++){
-                System.out.print(j);
+        char arr[] = {'A','B','C','D','E','F'};
+        for(i=5;i>=0;i--){
+            for(j=0;j<=i;j++){
+                System.out.print(arr[j]);
             }
             System.out.println(" ");
         }
 
-        for(k=1;k<=6;k++){
-            for(l=1;l<=k;l++){
-                System.out.print(l);
+        for(k=0;k<=5;k++){
+            for(l=0;l<=k;l++){
+                System.out.print(arr[l]);
             }
             System.out.println(" ");
         }
