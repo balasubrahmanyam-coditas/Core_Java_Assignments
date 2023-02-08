@@ -1,6 +1,6 @@
 package assignment6;
 
-class Patterns{
+class Pattern{
     int i,j;
     public void design(){
         for(i=1;i<=5;i++){
@@ -14,7 +14,7 @@ class Patterns{
 }
 public class Question8a {
     public static void main(String args[]){
-        Patterns patterns = new Patterns();
+        Pattern patterns = new Pattern();
         patterns.design();
     }
 }
