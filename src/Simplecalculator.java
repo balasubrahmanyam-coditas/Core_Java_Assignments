@@ -15,7 +15,7 @@ class Simple{
 		System.out.println("Multiply is"+ result);
 	}
 	public void division(){
-		sresult=number1/number2;
+		result=number1/number2;
 		System.out.println("Division is"+ result);
 	}
 }

@@ -21,8 +21,11 @@ class Field{
         this.breath = breath;
     }
 
-    public int getArea() {
-        return area=length*breath;
+    public int getArea()
+    {
+         area=length*breath;
+         return area;
+
     }
 
     @Override
@@ -37,10 +40,11 @@ class Field{
 public class Rectangle {
     public static void main(String[] args) {
         Field field = new Field();
+        int ans;
         field.setLength(43);
         field.setBreath(32);
-        field.getArea();
+        ans = field.getArea();
         //System.out.println("area of rectangle is: "+field.getLength()*field.getBreath());
-        System.out.println(field);
+        System.out.println(ans);
     }
 }

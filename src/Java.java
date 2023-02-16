@@ -1,4 +1,5 @@
-Short
+/*out
+        Short
 class Short {
     public static void main(String[] args) {
         short a=1;
@@ -71,3 +72,5 @@ class Int {
         System.out.println(c);
     }
 }
+
+ */
